@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
     final String[] cameraId = {null};
-
     final boolean[] on = {false};
 
     btn.setOnClickListener(new View.OnClickListener() {
